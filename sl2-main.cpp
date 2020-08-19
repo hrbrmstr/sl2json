@@ -25,7 +25,7 @@ int main(int argc, const char *argv[]) {
   in.read((char *)&format, sizeof(format));
 
   if (!((format >=1) && (format <= 3))) {
-    ::std::cerr << "Unexpected format indicatorin header; Likely not an SL2/SL3/SLG file" << ::std::endl;
+    ::std::cerr << "Unexpected format indicator in header; Likely not an SL2/SL3/SLG file" << ::std::endl;
     return(1);
   }
 
