@@ -8,10 +8,14 @@ Convert Lowrence SL2 files to streaming/newline-delimited JSON (ndjson)
 - <https://stackoverflow.com/q/52280751/1457051>
 - <https://gitlab.com/hrbrmstr/arabia> (R package)
 
+## Install (macOS homebrew)
+```bash
+brew install hrbrmstr/tap/sl2json
+```
+
 ## Build
 
 Just run `make`. There are no external dependencies outside the need for a C++ compiler. Compilation has been tested with both `gcc` and `clang` toolchains.
-
 ## Run
 
     $ ./sl2json some_sl2_file.sl2 > streaming_json_version_of_the_data.json

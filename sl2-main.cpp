@@ -12,8 +12,8 @@ int main(int argc, const char *argv[]) {
   char buffer[MAX_BUFFER_SIZE];
 
   if (argc < 2) {
-    ::std::cerr << "Usage: " << argv[0] << "<filename>\n";
-    return(1);
+    ::std::cerr << "sl2json 0.1.0\n\nUsage: " << argv[0] << " <filename>\n";
+    return(0);
   }
 
   ::std::ifstream in;
